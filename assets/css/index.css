@@ -10,11 +10,13 @@
     padding-top: 8%;
     margin-left: auto;
     margin-right: auto;
+    height: 40px;
 }
 .body-text{
     text-align: center;
     margin-top: 8%;
     color: white;
+    font-family: 'Roboto Condensed', sans-serif;
 }
 ul{
     display: flex;
@@ -23,8 +25,22 @@ ul{
     width: 10%;
     height: 100%;
 }
+.border-round{
+  background: linear-gradient(#686c72,#393c42,#686c72);
+  border-radius: 10px;
+}
+.gradient-color{
+  background: linear-gradient(#686c72,#393c42,#686c72);
+  color: white;
+}
+.gradient-color:hover {
+  background: linear-gradient(#4e4e4f, #272728,  #4e4e4f);
+}
 .w-full{
     width: 100%;
+}
+.h-full{
+  height: 100%;
 }
 .quarter{
     width: 25%;
@@ -45,61 +61,44 @@ ul{
 .f-h3:hover{
   text-decoration: underline;
 }
-input {
-	outline: none;
+.text-icon{
+  width: 20%;
+  margin: auto 0;
+  color: white;
+  padding-left: 15px;
 }
-input[type=search] {
-	-webkit-appearance: textfield;
-	-webkit-box-sizing: content-box;
-	font-family: inherit;
-	font-size: 100%;
+.search-text{
+  width: 60%;
+  border-radius: 15px;
+  background: linear-gradient(#686c72,#393c42,#686c72);
 }
-input::-webkit-search-decoration,
-input::-webkit-search-cancel-button {
-	display: none;
-}
-input[type=search] {
-	background: #ededed url(https://static.tumblr.com/ftv85bp/MIXmud4tx/search-icon.png) no-repeat 9px center;
-	border: solid 1px #ccc;
-	padding: 0 10px 7px 32px;
-	width: 55px;
-
-	-webkit-border-radius: 10em;
-	-moz-border-radius: 10em;
-	border-radius: 10em;
-
-	-webkit-transition: all .5s;
-	-moz-transition: all .5s;
-	transition: all .5s;
-}
-input[type=search]:focus {
-	width: 130px;
-	background-color: #fff;
-	border-color: #66CC75;
-  padding-top: 6px;
-
-	-webkit-box-shadow: 0 0 5px rgba(109,207,246,.5);
-	-moz-box-shadow: 0 0 5px rgba(109,207,246,.5);
-	box-shadow: 0 0 5px rgba(109,207,246,.5);
-}
-input:-moz-placeholder {
-	color: #999;
-}
-input::-webkit-input-placeholder {
-	color: #999;
+.search-text:focus{
+  width: 80%;
+  background: white;
 }
 footer{
   font-size: 10px;
 }
 .f-left{
-  padding-left: 20%;
+  width: 40%;
+  margin: 0 auto;
 }
 .f-right{
-
+  width: 40%;
+  margin: 0 auto;
 }
 .d-flex{
   display: flex;
 }
-.i-block{
-  display: inline-block;
+.footer-w{
+  width: 80%;
+  margin: 0 auto;
+}
+a[href="bottom"]{
+  color: blue;
+  text-decoration: none;
+}
+a[href="bottom"]:hover {
+  color: blue;
+  text-decoration: underline;
 }

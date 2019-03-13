@@ -17,4 +17,4 @@ A clone of
 ---
 # Live Demo
 
-Click [here](https://raw.githack.com/shshamim63/apple.com/development/index.html) to see the latest updates
+Click [here](https://shshamim63.github.io/apple.com/.) to see the latest updates

@@ -1,0 +1,104 @@
+.main-content{
+    width: 100%;
+    height: 700px;
+    background: url("../../assets/image/your_verse_hero.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.main-element{
+    width: 75%;
+    padding-top: 8%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 40px;
+}
+.body-text{
+    text-align: center;
+    margin-top: 8%;
+    color: white;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+ul{
+    display: flex;
+}
+.option-width{
+    width: 10%;
+    height: 100%;
+}
+.border-round{
+  background: linear-gradient(#686c72,#393c42,#686c72);
+  border-radius: 10px;
+}
+.gradient-color{
+  background: linear-gradient(#686c72,#393c42,#686c72);
+  color: white;
+}
+.gradient-color:hover {
+  background: linear-gradient(#4e4e4f, #272728,  #4e4e4f);
+}
+.w-full{
+    width: 100%;
+}
+.h-full{
+  height: 100%;
+}
+.quarter{
+    width: 25%;
+}
+.f-h1{
+    font-size: 60px;
+    font-weight: 100;
+}
+.f-h2{
+    font-size: 32px;
+    font-weight: 100;
+}
+.f-h3{
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+}
+.f-h3:hover{
+  text-decoration: underline;
+}
+.text-icon{
+  width: 20%;
+  margin: auto 0;
+  color: white;
+  padding-left: 15px;
+}
+.search-text{
+  width: 60%;
+  border-radius: 15px;
+  background: linear-gradient(#686c72,#393c42,#686c72);
+}
+.search-text:focus{
+  width: 80%;
+  background: white;
+}
+footer{
+  font-size: 10px;
+}
+.f-left{
+  width: 40%;
+  margin: 0 auto;
+}
+.f-right{
+  width: 40%;
+  margin: 0 auto;
+}
+.d-flex{
+  display: flex;
+}
+.footer-w{
+  width: 80%;
+  margin: 0 auto;
+}
+a[href="bottom"]{
+  color: blue;
+  text-decoration: none;
+}
+a[href="bottom"]:hover {
+  color: blue;
+  text-decoration: underline;
+}
